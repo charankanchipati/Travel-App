@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+    <h3>Good Luck On Our Journey</h3>
+    <div class="book">
+    <h1>Book Now</h1>
+    <p1>50k/-</p1>
+    <h2>Name: <input type="text" placeholder="name"></h2>
+    <h2>Phone No. :<input type="number" placeholder="phone no."></h2>
+    <h2>Email-id: <input type="email" placeholder="email-id@gmail.com"></h2>
+    <button type="submit" class="pay" >Debit card</button>
+    <button type="submit" class="pay" onclick="debi">Credit card</button>
+    <button type="submit" class="pay" onclick="scanner()">Scanner</button>
+    </div>
+    <div class="Scan" id="now">
+        <img src="scanner.jpg"><br>
+        <button type="submit" class="clon" onclick="close()">Close</button>
+    </div>
+    <div class="debit" id="can">
+        <h4>Dedit Card details</h4>
+        <p3>Long card No.:<input type="text"><br></p3>
+        <p3>Name:<input type="text"><br>
+        <p3>Expiration date:<input type="date" placeholder="dd-yyyy"><br></p3>
+        <p3>CVV:<input type="text" placeholder="XXX"><br></p3>
+        <button type="submit">Processed</button>
+    </div>
+    <div class="credit"></div>
+   <script src="/book.js"></script>
+</body>
+</html>

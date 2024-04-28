@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding:0;
+    background-color: black;
+}
+.book{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 5px solid rgb(163, 223, 72);
+    border-radius: 0 0 52px 52px;
+    width: 400px;
+    height: 390px;
+    color: #fff;
+    text-align: center;
+}
+.book h1{
+    padding: 17px;
+    font-family:'Lucida Sans Unicode';
+}
+p1{
+    margin: 340px;
+    font-size: 25px;
+    border-bottom: 3px solid rgb(163, 223, 72);
+}
+.book h2{
+    padding: 5px;
+    font-family: cursive;
+    padding-bottom: 20px;
+}
+.book h2 input{
+    width: 200px;
+    color: #fff;
+    font-family: cursive;
+    font-size: 20px;
+    border-bottom: 2px solid rgb(163, 223, 72);
+    border-right: 2px solid rgb(163, 223, 72);
+}
+.book button{
+    margin: 10px;
+    font-size: 25px;
+    background-color: rgb(163, 223, 72);
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+h3{
+    color:azure;
+    font-size: 40px;
+    font-family: 'Poppins',sans-serif;
+    padding: 38px;
+    padding-left: 17%;
+}
+.Scan{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    border: 5px solid rgb(163, 223, 72);
+    border-radius: 0 0 52px 52px;
+    width: 400px;
+    height: 390px;
+    color: #fff;
+    text-align: center;
+    visibility: hidden;
+    transition: transform 0.5s,top 0.5s;
+}
+.open-scan{
+    visibility: visible;
+    transform: translate(-50%,-50%) scale(1);
+}
+.close-scan{
+    visibility: hidden;
+    transform: translate(-50%,-50%) scale(0.1);
+}
+.Scan img{
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+}
+.clon{
+    margin: 10px;
+    font-size: 25px;
+    background-color: rgb(163, 223, 72);
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+.debit{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    border: 5px solid rgb(163, 223, 72);
+    border-radius: 0 0 52px 52px;
+    width: 400px;
+    height: 390px;
+    color: #fff;
+    text-align: center;
+    visibility: hidden;
+    transition: transform 0.5s,top 0.5s;
+}
+.debit p3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.debit h4{
+    font-size: 45px;
+    padding: 30px;
+}
+.debit button{
+    background: rgb(163, 223, 72);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.debit input{
+    width: 200px;
+    height: 20px;
+    border-bottom: 2px solid rgb(163, 223, 72);
+    border-right: 2px solid rgb(163, 223, 72);
+}

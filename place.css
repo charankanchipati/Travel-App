@@ -1,0 +1,48 @@
+*{
+    background-color: black;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 15px;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.place{
+    display: block;
+    font-size: 25px;
+}
+.place ul{
+    list-style: none;
+}
+.place ul span{
+    border-bottom: 1px solid rgb(213, 249, 6);
+}
+.place ul li select{
+    margin-left: 100px;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid rgb(213, 249, 6);
+    width: 100px;
+    display: inline-block;
+}
+.place ul li{
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.proc button{
+    color: black;
+    font-size: 30px;
+    text-align: right;
+    background: rgb(213, 249, 6);
+    cursor: pointer;
+    margin-left: 90%;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 2px solid rgb(213, 249, 6);
+}
+.proc button a{
+    text-decoration: none;
+}

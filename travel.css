@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Teko:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+    font-family: "Playfair Display", serif;
+}
+.navi ul{
+    text-align: right;
+    margin-top: 10px;
+}
+.navi li{
+    display: inline-block;
+}
+.navi .home{
+    background: rgb(163, 223, 72);
+}
+.navi a{
+    text-decoration: none;
+    padding: 15px 15px;
+    width: 126px;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navi a:hover{
+    background: greenyellow;
+}
+.navi ul li ul.drop li{
+    display: block;
+}
+.navi ul li ul.drop{
+    position: absolute;
+    display: none;
+}
+.navi ul li:hover ul.drop{
+    display: block;
+    background-color: blue;
+}
+h1{
+    font-size:40px;
+    padding: 20px;
+}
+h1 .tour{
+    margin: 70px;
+    font-family: lucida;
+    font-size: 60px;
+    cursor: default;
+    transition: 1s;
+}
+h1 .tour:hover{
+    color: rgb(233, 122, 25);
+}
+p1{
+    font-size: 20px;
+    margin: 130px;
+    margin-top: 0;
+    font-family: cursive;
+}
+.images h2{
+    margin: 20px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: 4px solid rgb(163, 223, 72);
+    width: 44%;
+    cursor: default;
+}
+img{
+    width: 400px;
+    height: 400px;
+    margin: 39px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+    margin-right: 30px;
+}
+.info{
+    width: 420px;
+    height: 650px;
+    display: inline-block;
+    padding: 39px;
+    cursor: pointer;
+}
+.info h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 25px;
+}
+.info p2{
+    font-family: cursive;
+    margin: 20px;
+    font-size: 17px;
+}
+/* .info:hover{
+    transform: scale(1.07);
+} */
+.info h3{
+    border-bottom: 3.4px solid rgb(163, 223, 72);
+    text-align:left;
+    width: auto;
+}
+.info h3 a{
+    text-decoration: none;
+}
+/* .info h3:hover{
+    border-bottom: 3.4px solid rgb(163, 223, 72);
+} */
+.cont{
+    box-sizing: border-box;
+    border: 6px solid rgb(163, 223, 72);
+    margin: 100px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 0 80px 0 80px;
+}
+.cont h4{
+    font-size: 60px;
+    text-align: center;
+    border-bottom: 4px solid rgb(163, 223, 72);
+    width: 40%;
+}
+.cont input{
+    font-size: 30px;
+    font-family: cursive;
+    border-bottom: 2px solid rgb(163, 223, 72);
+    border-right: 2px solid rgb(163, 223, 72);
+}
+.deta{
+    font-size: 30px;
+    padding: 20px;
+    font-family: latin;
+}
+.cont .sub{
+    background-color: rgb(154, 252, 7);
+    width: 130px;
+    height: 60px;
+    cursor: pointer;
+    color: black;
+    border-radius: 15px;
+}
+footer{
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
